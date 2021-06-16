@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DepotManager</string>
+    <string name="welcome_message">"    WELCOME\n           TO\n DepotManager"</string>
+    <string-array name="listeVilles">
+        <item>Remchi</item>
+        <item>Tlemcen</item>
+        <item>Bejaa</item>
+        <item>Oran</item>
+    </string-array>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.depotmanager">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DepotManager">
+        <activity android:name=".ajoutCommande">
+
+        </activity>
+        <activity android:name=".profilUtilisateur"></activity>
+        <activity android:name=".welcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".choixStatus"></activity>
+        <activity android:name=".connexionDepot" ></activity>
+        <activity android:name=".connexionFournisseur" ></activity>
+        <activity android:name=".listeCommandes" ></activity>
+        <activity android:name=".inscription" ></activity>
+    </application>
+
+</manifest>
